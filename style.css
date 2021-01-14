@@ -520,12 +520,15 @@ footer a:hover {
   
   .nav-menu > ul {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
   }
   
   .nav-menu > ul > li {
     position: relative;
     white-space: nowrap;
-    padding: 35px 0px 0px 60px;
+    padding: 25px 0px 0px 0px;
 
   }
   
