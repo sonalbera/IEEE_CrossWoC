@@ -53,6 +53,7 @@ link {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
+    justify-content: center;
     background-color: #1c49dd;
     border-radius: 10px;
     border: none;
@@ -551,7 +552,7 @@ footer a:hover {
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background: url("assets/ba5b613b625e1013284f588943cd6e15.gif") top center;
     background-size: cover;
     position: relative;
