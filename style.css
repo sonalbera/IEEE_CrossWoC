@@ -53,9 +53,10 @@ link {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
+    justify-content: center;
     background-color: #1c49dd;
     border-radius: 10px;
-    border: none;
+    border: 1px solid white;
     color: #FFFFFF;
     cursor: pointer;
     display: -ms-flexbox;
@@ -67,6 +68,7 @@ link {
     padding: 12px 20px;
     text-align: center;
     width: 15em;
+    outline: none;
 }
 
 #click-apply-now:not([disabled]) {
@@ -208,6 +210,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    outline: none;
 }
 
 .hidden {
@@ -291,24 +294,24 @@ a {
     display: block;
     border: 0;
     border-radius: 10px;
-    border: 2px solid var(--text-col);
+    border: 1px solid white;
     padding: 1rem 1rem;
     width: 200px;
     margin: 10px;
     text-decoration: none;
     letter-spacing: 2px;
-    color: #fff;
+    /* color: white; */
     cursor: pointer;
     text-align: center;
     transition: background-color 250ms ease-in-out, transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-color: transparent;
+    background-color: #1c49dd;
     color: var(--text-col);
 }
 
 .dir-btn:hover {
-    background-color: var(--btn-col);
+    background-color:  #2954BF;
     color: whitesmoke;
     text-decoration: none;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s
@@ -513,7 +516,7 @@ footer a:hover {
     cursor: pointer
 }
 
-#nav-list {
+
     z-index: 50;
     width: 100vw;
     position: fixed;
@@ -852,7 +855,7 @@ title {
     display: inline-block;
     border: 0;
     border-radius: 10px;
-    border: 2px solid var(--btn-col);
+    border: 2px solid white;
     padding: 1rem 1rem;
     width: 200px;
     margin: 10px;
@@ -864,8 +867,13 @@ title {
     transition: background-color 250ms ease-in-out, transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-color: var(--btn-col);
-    color: whitesmoke
+    background-color: #1c49dd;
+    color: white;
+    outline: none;
+}
+
+.timeline .date-links button:hover {
+    background-color:  #2954BF;
 }
 
 .timeline .date-links button sup {
