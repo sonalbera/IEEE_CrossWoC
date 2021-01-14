@@ -56,7 +56,7 @@ link {
     justify-content: center;
     background-color: #1c49dd;
     border-radius: 10px;
-    border: none;
+    border: 1px solid white;
     color: #FFFFFF;
     cursor: pointer;
     display: -ms-flexbox;
