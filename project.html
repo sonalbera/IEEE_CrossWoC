@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./images/cw_logo.jpg" type="image">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <nav>
+        <button class="menu" aria-label="Navigation Button"><img class="material-icons" id="menu-icon"
+                src="./images/apps-24px.svg" alt='nav'>
+        </button>
+        <div class="nav-hide" id="nav-list">
+            <img class="material-icons" id="clear" src="./images/clear-24px.svg" alt='close'>
+            <li><a class="link" href="index.html">Back to Home</a></li>
+            
+
+        </div>
+    </nav>
+
+    <section class="faq" id="faq">
+
+        <div class="title">PROJECTS</div>
+    <section class="landing-page">
+    <div class="container">
+        <div class="card">
+        <div class="imgBox">
+        <img src="images/test.jpg">
+        </div>
+        <div class="details">
+         <h2> lore</h2>
+         <p> Lorem ipsum d</p>
+         </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBox">
+            <img src="images/test.jpg">
+            </div>
+            <div class="details">
+             <h2> lore</h2>
+             <p> Lorem ipsum d</p>
+             </div>
+            </div>
+            
+
+            <div class="card">
+                <div class="imgBox">
+                <img src="images/test.jpg">
+                </div>
+                <div class="details">
+                 <h2> lore</h2>
+                 <p> Lorem ipsum d</p>
+                 </div>
+                </div>
+
+   
+         </div> 
+     </section>  
+
+     <section class="landing-page-inverted">
+    <div class="container">
+        <div class="card">
+        <div class="imgBox">
+        <img src="images/test.jpg">
+        </div>
+        <div class="details">
+         <h2> lore</h2>
+         <p> Lorem ipsum d</p>
+         </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBox">
+            <img src="images/test.jpg">
+            </div>
+            <div class="details">
+             <h2> lore</h2>
+             <p> Lorem ipsum d</p>
+             </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBox">
+                <img src="images/test.jpg">
+                </div>
+                <div class="details">
+                 <h2> lore</h2>
+                 <p> Lorem ipsum d</p>
+                 </div>
+                </div>
+
+   
+         </div> 
+     </section>  
+     
+     <section>
+        <footer>
+            <span class="us">Made with ❤️ by IEEE DTU<span>
+                <br><br><span>Developed by : <a href="https://www.linkedin.com/in/sonalbera">Sonal Bera</a> 
+                    alongwith <a href="https://www.linkedin.com/in/priyansh-t-3336b1168">Priyansh Tyagi, </a>
+                    and  <a href="https://www.linkedin.com/in/ansh-agrawal-027a72178">Ansh Agrawal </a></span>
+                <br><br><span>Template credits : <a href="https://github.com/arpitvaghela" target="_blank" rel="noreferrer noopener">Arpitsinh
+                    Vaghela</a> & <a href="https://github.com/Kaushal1011" target="_blank"
+                    rel="noreferrer noopener">Kaushal Patil</a></span>
+    
+                    <!-- <a href="https://github.com/arpitvaghela" target="_blank" rel="noreferrer noopener">Arpitsinh -->
+                        <!-- Vaghela</a> & <a href="https://github.com/Kaushal1011" target="_blank" -->
+                        <!-- rel="noreferrer noopener">Kaushal Patil</a> -->
+        </footer>
+     </section>           
+                                                                                   
+    
+    <script>
+        // navigation
+document.getElementById('clear').addEventListener('click', () => {
+    document.getElementById('nav-list').classList.add('nav-hide');
+})
+document.getElementById('menu-icon').addEventListener('click', () => {
+    document.getElementById('nav-list').classList.remove('nav-hide');
+})
+let ll = document.getElementsByClassName('link')
+
+for (let link of ll) {
+    link.addEventListener('click', () => {
+        document.getElementById('nav-list').classList.add('nav-hide');
+    })
+}
+
+    </script>
+    <script src="./main.js"></script>
+</body>
+</html>
